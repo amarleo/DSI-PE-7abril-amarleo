@@ -1,0 +1,23 @@
+{
+  "name": "dsi-pe-31marzo-amarleo",
+  "version": "1.0.0",
+  "description": "- Autor: Alejandro Martín de León - Contacto: alu0101015941@ull.edu.es",
+  "main": "index.js",
+  "scripts": {
+    "doc": "typedoc",
+    "test": "mocha",
+    "coverage": "nyc npm test && nyc report --reporter=text-lcov | coveralls && rm -rf .nyc_output",
+    "start": "tsc-watch --onSuccess \"node dist/index.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amarleo/DSI-PE-31marzo-amarleo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amarleo/DSI-PE-31marzo-amarleo/issues"
+  },
+  "homepage": "https://github.com/amarleo/DSI-PE-31marzo-amarleo#readme"
+}
