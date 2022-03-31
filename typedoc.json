@@ -1,6 +1,8 @@
 {
   "entryPoints": [
-    "./src/imperialLength.ts"
+    "./src/imperialLength.ts",
+    "./src/metricalLength.ts",
+    "./src/adapter.ts"
   ],
   "out": "./docs"
 }
