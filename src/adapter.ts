@@ -20,7 +20,7 @@ export class Adapter extends ImperialLength {
 // const metrical = new MetricalLength(25);
 
 // function clientCode(data: number) {
-//   console.log(data);
+//   console.log(data)
 // }
 
 // const adapter = new Adapter(metrical);
