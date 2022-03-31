@@ -1,6 +1,6 @@
 {
   "entryPoints": [
-    "./src/index.ts"
+    "./src/imperialLength.ts"
   ],
   "out": "./docs"
 }
