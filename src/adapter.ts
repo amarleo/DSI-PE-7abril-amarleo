@@ -24,4 +24,5 @@ export class Adapter extends ImperialLength {
 // }
 
 // const adapter = new Adapter(metrical);
-// clientCode(adapter.getData());
+// console.log(adapter.toMillas());
+
