@@ -5,4 +5,12 @@ export class MetricalLength {
   getLength(): number {
     return this.length;
   }
+
+  toM(): number {
+    return this.length / 100;
+  }
+
+  toKm(): number {
+    return this.length / 1000;
+  }
 }

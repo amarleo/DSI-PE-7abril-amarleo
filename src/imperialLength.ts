@@ -3,6 +3,18 @@ export class ImperialLength {
   }
 
   getLength(): number {
-    return this.length;
+    return Math.round(this.length);
+  }
+
+  toFt(): number {
+    return Math.round(this.length / 12);
+  }
+
+  toYd(): number {
+    return Math.round(this.length / 36);
+  }
+
+  toMillas(): number {
+    return Math.round(this.length / 63360);
   }
 }

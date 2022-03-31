@@ -9,4 +9,12 @@ describe('MetricalLength Class Tests', () => {
     expect(example1.getLength()).to.be.eql(35);
     expect(example2.getLength()).to.be.eql(400);
   });
+  it('toM method', () => {
+    expect(example1.toM()).to.be.eql(0.35);
+    expect(example2.toM()).to.be.eql(4);
+  });
+  it('toKm method', () => {
+    expect(example1.toKm()).to.be.eql(0.035);
+    expect(example2.toKm()).to.be.eql(0.4);
+  });
 });
