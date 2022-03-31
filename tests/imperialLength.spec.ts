@@ -20,5 +20,5 @@ describe('ImperialLength Class Tests', () => {
   });
   it('toMillas method', () => {
     expect(example3.toMillas()).to.be.eql(1);
-  })
+  });
 });
