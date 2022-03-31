@@ -1,5 +1,7 @@
+type imperialUnit = 'plg' | 'ft' | 'yd' | 'milla';
+
 export class ImperialLength {
-  constructor(private length: number = 0, private unit: string = '') {
+  constructor(private length: number = 0, private unit: imperialUnit) {
   }
 
   getLength(): number {
