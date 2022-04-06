@@ -5,9 +5,7 @@
     "./dist"
   ],
   "files": [
-  "src/imperialLength.ts",
-  "src/metricalLength.ts",
-  "src/adapter.ts"
+  "src/index"
   ],
   "compilerOptions": {
     /* Visit https://aka.ms/tsconfig.json to read more about this file */
