@@ -34,6 +34,6 @@ export class WaterPokemonCreator extends pokemonCreator {
    * @returns new Water Pokemon
    */
   public factoryMethod(): Pokemon {
-     return new WaterPokemon(this.name, this.height, this.weight, this.type, this.attack, this.defense, this.speed, this.hp);
+    return new WaterPokemon(this.name, this.height, this.weight, this.type, this.attack, this.defense, this.speed, this.hp);
   }
 }

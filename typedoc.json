@@ -3,7 +3,8 @@
     "./src/pokemon.ts",
     "./src/pokemonCreator.ts",
     "./src/waterPokemon.ts",
-    "./src/waterPokemonCreator.ts"
+    "./src/waterPokemonCreator.ts",
+    ".src/clientCode.ts"
   ],
   "out": "./docs"
 }

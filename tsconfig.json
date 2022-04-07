@@ -6,7 +6,10 @@
   ],
   "files": [
   "src/pokemonCreator.ts",
-  "src/pokemon.ts"
+  "src/pokemon.ts",
+  "src/clientCode.ts",
+  "src/waterPokemon.ts",
+  "src/waterPokemonCreator.ts",
   ],
   "compilerOptions": {
     /* Visit https://aka.ms/tsconfig.json to read more about this file */
