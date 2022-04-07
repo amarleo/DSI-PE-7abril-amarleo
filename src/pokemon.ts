@@ -35,7 +35,6 @@
     */
    constructor(name: string, height: number, weight: number, type: PokemonType,
        attack: number, defense: number, speed: number, hp: number) {
-     // super();
      this.name = name;
      this.height = height;
      this.weight = weight;
