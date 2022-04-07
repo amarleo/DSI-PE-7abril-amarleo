@@ -1,10 +1,11 @@
 import { Pokemon } from './pokemon';
+import { WaterPokemonCreator } from './waterPokemonCreator';
 
-abstract class pokemonCreator {
+export abstract class pokemonCreator {
   public abstract factoryMethod(): Pokemon;
 
   public print(): string {
-    const pokemon = this.factoryMethod();
+    const pokemon: Pokemon = this.factoryMethod();
     return `Se ha creado el pokemon llamado ${pokemon.getName()}`;
   }
 }
@@ -12,3 +13,5 @@ abstract class pokemonCreator {
 function clientCode(pokemon: pokemonCreator) {
   console.log(pokemon.print());
 }
+
+clientCode(new WaterPokemonCreator('Gyarados', 6.5, 230, 'Water', 65, 60, 110, 500));

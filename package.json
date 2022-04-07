@@ -7,7 +7,7 @@
     "doc": "typedoc",
     "test": "mocha",
     "coverage": "nyc npm test && nyc report --reporter=lcov",
-    "start": "tsc-watch --onSuccess \"node dist/index.js\"",
+    "start": "tsc-watch --onSuccess \"node dist/pokemonCreator.js\"",
     "adapter": "tsc-watch --onSuccess \"node dist/adapter.js\""
   },
   "repository": {

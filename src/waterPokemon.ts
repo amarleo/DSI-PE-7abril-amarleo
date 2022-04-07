@@ -1,13 +1,13 @@
-// import { pokemonCreator } from './pokemonCreator';
+import { Pokemon } from './pokemon';
 /**
  * @param PokemonType All pokemon types avaiables on this program
  */
- type PokemonType = 'Water' | 'Fire' | 'Grass' | 'Electric';
+ type PokemonType = 'Water';
 
  /**
   * Pokemon Class
   */
- export class Pokemon {
+ export class WaterPokemon implements Pokemon {
    name: string;
    height: number;
    weight: number;
